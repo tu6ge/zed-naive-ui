@@ -69,6 +69,7 @@ impl zed::Extension for NaiveUIExtension {
                     .join(&server_path)
                     .to_string_lossy()
                     .to_string(),
+                //"/Users/tu6ge/vue/naive-ui-intelligence/out/server.js".to_string(),
                 "--stdio".to_string(),
             ],
             env: Default::default(),

@@ -6,4 +6,7 @@ authors = ["tu6ge <tu6ge@qq.com>"]
 description = "LSP-based IntelliSense for Naive UI components"
 repository = "https://github.com/tu6ge/zed-naive-ui"
 
-languages = ["vue"]
+[language_servers.naive-ui-language-server]
+name = "Naive UI LSP"
+languages = ["Vue.js"]
+language_ids = { "Vue.js" = "vue" }
