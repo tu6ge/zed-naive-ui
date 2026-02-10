@@ -1,6 +1,6 @@
-id = "zed-naive-ui-intellisense"
+id = "naive-ui-intellisense"
 name = "Naive UI IntelliSense"
-version = "0.1.0"
+version = "0.1.1"
 schema_version = 1
 authors = ["tu6ge <tu6ge@qq.com>"]
 description = "LSP-based IntelliSense for Naive UI components"
